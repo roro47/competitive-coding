@@ -1,0 +1,29 @@
+#include <iostream>
+#include <deque>
+#include <string>
+#include <vector>
+#include <map>
+#include <cctype>
+using namespace std;
+
+typedef vector<string> Program;
+typedef map<string, int> Table;
+
+int main(void) {
+  int num_p, t1, t2, t3, t4, t5, q;
+  cin >> num_p >> t1 >> t2 >> t3 >> t4 >> t5 >> q;
+
+  deque<Program> pq;
+  while (num_p--) {
+    string line;
+    Program p;
+    while (getline(cin, line) && line != "end") {
+      p.push_back(line);
+    }
+    pq.push_back(line);
+
+
+
+  
+
+}
